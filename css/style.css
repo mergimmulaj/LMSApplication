@@ -1,0 +1,487 @@
+/* -----FONT FACE (COSTUM FONTS)-----*/
+ @font-face {
+     font-family: TrebuchetMS;
+     src: url(fonts/Trebuchet_MS.ttf);
+}
+/*------WRAPPER AND BODY DETAILS-------*/
+ .wrapper{
+     width: 1240px;
+     margin: 0 auto;
+}
+ body {
+     background-color: #000;
+}
+/*------LOGO AND TOPBAR-------*/
+ .heading1 {
+     color: #fff;
+     padding-top: 6px;
+     margin-right: 20px;
+     margin-top: 7px;
+}
+ .header-message {
+     margin-top: 25px;
+     color: #fff;
+     padding: 25px;
+}
+ .header-txt {
+     color: #b7e715;
+     font-family: Georgia;
+     font-weight: bold;
+     margin-top: 60px;
+     padding: 12px;
+}
+ .rss-feed {
+     background-color: #2a2a2a;
+     width: 32%;
+     padding: 13px;
+     margin-left: 6px;
+     float: left;
+}
+ .search {
+     width: 31%;
+     float: right;
+     margin-top: -122px;
+     margin-right: 7px;
+     padding: 12px;
+     background-color: #2a2a2a;
+}
+ .topbar {
+     background-color: #2e2e2e;
+     padding-bottom: 18px;
+     border-radius: 5px;
+}
+.topbar-manage-posts {
+     background-color: #2e2e2e;
+     padding-bottom: 18px;
+     border-radius: 5px;
+}
+ .search-img {
+     padding: 6px;
+}
+ .rss-icon {
+     float: left;
+     padding: 12px;
+}
+ .rss-text {
+     margin-top: -22px;
+     margin-left: 5.4%;
+     position: absolute;
+     color: #848484;
+}
+ .heading5 {
+     color: #fff;
+     padding: 12px;
+     margin-top: -40px;
+     font-family: TrebuchetMS;
+}
+.role-explain {
+     color: #fff;
+     font-family: TrebuchetMS;
+}
+ .heading5-post {
+     color: #fff;
+     padding: 12px;
+     margin-top: -40px;
+     font-family: TrebuchetMS;
+     border: 1px solid #2e2e2e;
+}
+.heading5-user {
+     float: right;
+     margin-top: -70px;
+     color: #fff;
+     font-family: TrebuchetMS;
+     margin-right: 18px;
+}
+.title-note {
+     font-family: TrebuchetMS;
+     color: #fff;
+     padding-right: 20px;
+     display: inline;
+     font-size: 18px;
+}
+.date-note{
+     font-family: TrebuchetMS;
+     color: #fff;
+
+     display: inline;
+     font-size: 14px;
+}
+.content-note {
+     color: #fff;
+
+     margin-top: 0px;
+     font-family: TrebuchetMS;
+}
+ .message {
+     background-color: #2a2a2a;
+     margin-left: 434px;
+     width: 31%;
+}
+ .message-text {
+     margin-top: -59px;
+     padding: 12px;
+     color: #848484;
+     padding-bottom: 23px;
+}
+ .envelope-icon {
+     float: left;
+     padding: 12px;
+     margin-top: 14px;
+}
+ .search-title {
+     color: #fff;
+     margin-top: -73px;
+     padding: 7px;
+     margin-left: 75px;
+}
+ .search-input {
+     margin-top: -24.9px;
+     list-style-type: none;
+     margin-left: 45px;
+}
+ .search-input{
+     margin-top: -26.9px;
+     list-style-type: none;
+     margin-left: 45px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+}
+
+tr {
+    background-color: #dddddd;
+}
+ .search-input li{
+     display: inline;
+     float: left;
+}
+ .searchbar {
+     height: 18px;
+     padding: 4px;
+     border: 1px solid #424242;
+     background-color: transparent;
+    /* color: black;
+     */
+     width: 200px;
+}
+ .button1 {
+     background-color: #424242;
+     border: none;
+     width: 35px;
+     border-radius: 0px;
+     height: 28px;
+     margin-top: 0px;
+}
+/*------NAVBAR LINKS-------*/
+ .navbar{
+     margin-top: 40px;
+     list-style-type: none;
+}
+ .navbar ul{
+     padding-left: 0px;
+}
+ .navbar li{
+     display: inline;
+}
+ .navbar-links {
+     color: #777;
+     text-decoration: none;
+     margin-right: 40px;
+}
+.navbar-dashboard-link {
+     color: green;
+     text-decoration: none;
+     margin-right: 40px;
+}
+/*------CONTENT LEFT-------*/
+ .content-header {
+     background-color: #313131;
+     padding: 12px;
+}
+.heading3 {
+     font-family: TrebuchetMS;
+     color: #fff;
+     border: 1px solid #2e2e2e;
+     padding: 10px;
+}
+ .content-title {
+     color: #fff;
+}
+ .greenselected {
+     color: #b7e715;
+     border-bottom: 1px solid #b7e715 
+}
+ .content-title-contact {
+     color: #fff;
+     font-family: TrebuchetMS;
+}
+.heading5-contact {
+    color: #fff;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-family: TrebuchetMS;
+}
+.login-alert {
+     color: #ff0000;
+     font-family: TrebuchetMS;
+     margin-top: 15px;
+}
+ .under-title {
+     color: #fff;
+}
+ .content-header {
+     width: 805px;
+     border-radius: 5px;
+}
+ .content-header-messages {
+     width: 100%;
+     border-radius: 5px;
+}
+.content-body-messages {
+     width: 98%;
+     background-color: #222222;
+     padding: 12px;
+     margin-top: -3px;
+}
+ .body-text {
+     color: #fff;
+     font-size: 15px;
+     font-family: Georgia;
+}
+ .content-left {
+     float: left;
+}
+ .dateposted {
+     float: right;
+     margin-top: -20px;
+}
+ .content-body {
+     width: 805px;
+     background-color: #222222;
+     padding: 12px;
+     margin-top: -3px;
+     height: 365px;
+}
+ .content-body-posts {
+     width: 805px;
+     background-color: #222222;
+     padding: 12px;
+     margin-top: -3px;
+}
+ .images {
+     text-align: center;
+}
+ .img1 {
+     text-align: center;
+     margin-right: 8px;
+}
+ .img-desc {
+     float: right;
+}
+ .content-body-gallery {
+     width: 805px;
+     background-color: #222222;
+     padding: 12px;
+     margin-top: -3px;
+     height: 540px;
+}
+ .content-body-contact {
+     width: 805px;
+     background-color: #222222;
+     padding: 12px;
+     margin-top: -3px;
+     height: 850px;
+}
+ .text-input, select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical 
+}
+ .input-submit {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 120px;
+}
+ .input-submit:hover {
+     background-color: #45a049;
+}
+ .input-submit-red {
+     background-color: red;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 120px;
+}
+ .input-submit-red:hover {
+     background-color: #cc0000;
+}
+ .input-submit-blue {
+     background-color: #0000ff;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 125px;
+}
+ .input-submit-blue:hover {
+     background-color: #0000b2;
+}
+.content-header-manage-users {
+     width: 100%;
+    border-radius: 5px;
+}
+.content-body-manage-users {
+     width: 100%;
+    background-color: #222222;
+    padding: 12px;
+    margin-top: -3px;
+    height: 850px;
+}
+.footer-manage-users {   
+     margin-top: 1500px;
+}    
+.input-submit-green {
+     background-color: green;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+     width: 120px;
+}
+.left {
+     float: left;
+}
+.right {
+     float: right;
+}
+ .input-submit-green:hover {
+     background-color: #009900;
+}
+.head-btn {
+     float: right;
+     margin-top: -38px;
+     margin-right: 15px;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #222222;
+     padding: 20px;
+}
+ label {
+     color: #fff;
+     font-family: TrebuchetMS;
+}
+ .gender {
+     display: block;
+     font-family: TrebuchetMS;
+     color: #fff;
+}
+ .aboutme_title {
+     font-family: TrebuchetMS;
+     color: #fff;
+     margin-top: 8px;
+     padding: 18px;
+}
+/*-----CONTENT RIGHT ----*/
+ .sidebar {
+     margin-left: 875px;
+}
+ .content-right {
+     padding: 1px;
+}
+ .sidebar-title {
+     color: #fff;
+     font-family: Georgia;
+}
+ .blogroll-title {
+     color: #fff;
+}
+ .sidebar-text {
+     color: #fff;
+     font-family: TrebuchetMS;
+}
+ .no-decoration-href {
+     font-family: Georgia;
+     color: #fff;
+     letter-spacing: 1px;
+     border-bottom: dashed;
+     line-height: 25px;
+}
+ .categories-title {
+     font-family: Georgia;
+     font-weight: bold;
+     color: #fff;
+}
+ .blogroll-title {
+     color: #fff;
+     font-family: Georgia;
+     font-weight: bold;
+}
+ .no-decoration-href:hover {
+     color: #b7e715;
+}
+ .list-blogroll {
+     list-style-type: none;
+     margin-left: 10px;
+}
+ .nthg {
+     margin-left: -47px;
+     margin-top: -10px;
+}
+/*-----FOOTER ----*/
+ .footer-posts {
+     margin-top: 595px;
+}
+ .footer {
+     background-image: url(img/footer.png);
+     background-size: cover;
+     height: 120px;
+}
+ .footer-left-text {
+     color: #fff;
+     font-size: 20px;
+     padding-top: 60px;
+     padding-left: 70px;
+}
+ .footer-right-text {
+     color: #fff;
+     font-size: 20px;
+     padding-top: 50px;
+     padding-left: 70px;
+     float: right;
+     margin-top: -121px;
+     margin-right: 70px;
+}
+ .green-text {
+     color: #b7e715;
+}
+ .footer-gallery {
+     margin-top: 500px;
+}
+ .footer-contact {
+     margin-top: 900px;
+}
+.footer-messages {
+     margin-top: 1300px;
+}
